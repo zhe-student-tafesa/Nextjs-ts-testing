@@ -1,0 +1,20 @@
+.container{
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.buttonCount{
+    padding: 6px 15px;
+}
