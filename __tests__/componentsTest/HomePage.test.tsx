@@ -1,4 +1,4 @@
-import HomePage from '../src/app/page'
+import HomePage from '../../src/app/page'
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
  
