@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <div>
       <h1>Home</h1>
-      <Link href="/about">About</Link>
+      <Link data-id="home-page-about-link" href="/about">About</Link>
     </div>
   )
 }
