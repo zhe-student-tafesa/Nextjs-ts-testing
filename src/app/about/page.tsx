@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 const AboutPage = () => {
   return <div className={styles.container}>
     <Counter />
+    <h1>About</h1>
   </div>;
 };
 
