@@ -13,11 +13,11 @@ const Counter = ({ initilValue = 0 }: Props) => {
   return (
     <div className={styles.container}>
       <div className={styles.text}>
-        <p>{counter}</p>
+        <p data-id="counter-number">{counter}</p>
       </div>
       <div className={styles.buttons}>
-        <button onClick={increase} className={styles.buttonCount}> + 1</button>
-        <button onClick={decrease} className={styles.buttonCount}> - 1</button>
+        <button data-id="plus-count-btn" onClick={increase} className={styles.buttonCount}> + 1</button>
+        <button data-id="minus-count-btn"onClick={decrease} className={styles.buttonCount}> - 1</button>
       </div>
     </div>
   );
