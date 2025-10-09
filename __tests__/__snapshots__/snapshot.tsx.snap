@@ -7,6 +7,7 @@ exports[`renders homepage unchanged 1`] = `
       Home
     </h1>
     <a
+      data-id="home-page-about-link"
       href="/about"
     >
       About
